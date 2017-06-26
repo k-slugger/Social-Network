@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"div\tTag"
+			],
+			[
 				"def",
 				"define"
 			]
@@ -11,6 +15,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/views/welcome.blade.php",
+			"settings":
+			{
+				"buffer_size": 128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/master.blade.php",
+			"settings":
+			{
+				"buffer_size": 181,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -20,9 +42,25 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "ma",
+		"last_filter": "set s",
 		"selected_items":
 		[
+			[
+				"set s",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"bla",
+				"Snippet: Blade @yield"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
 			[
 				"ma",
 				"Material Theme: Activate theme"
@@ -36,15 +74,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: ns",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 322.0
 	},
 	"console":
 	{
@@ -65,7 +99,9 @@
 	"expanded_folders":
 	[
 		"/home/shubham/Documents/Projects/Social_network_laravel",
-		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views"
+		"/home/shubham/Documents/Projects/Social_network_laravel/resources",
+		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views",
+		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views/layouts"
 	],
 	"file_history":
 	[
@@ -114,8 +150,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/views/welcome.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/layouts/master.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -125,7 +220,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"layout":
 	{
