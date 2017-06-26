@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"b",
+				"button\tbutton"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"for",
+				"for\tAttr"
+			],
+			[
+				"lab",
+				"label\tTag"
+			],
+			[
+				"la",
+				"label\tlabel"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
 				"d",
 				"div\tTag"
 			],
@@ -16,20 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "resources/views/welcome.blade.php",
+			"file": "app/Http/Controllers/UserController.php",
 			"settings":
 			{
-				"buffer_size": 128,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/layouts/master.blade.php",
-			"settings":
-			{
-				"buffer_size": 181,
-				"encoding": "UTF-8",
+				"buffer_size": 419,
 				"line_ending": "Unix"
 			}
 		}
@@ -42,9 +68,17 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "set s",
+		"last_filter": "form",
 		"selected_items":
 		[
+			[
+				"form",
+				"Snippet: bs3-form-inline"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
 			[
 				"set s",
 				"Set Syntax: Laravel Blade"
@@ -78,7 +112,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 322.0
+		"width": 431.0
 	},
 	"console":
 	{
@@ -99,14 +133,19 @@
 	"expanded_folders":
 	[
 		"/home/shubham/Documents/Projects/Social_network_laravel",
-		"/home/shubham/Documents/Projects/Social_network_laravel/resources",
-		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views",
-		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views/layouts"
+		"/home/shubham/Documents/Projects/Social_network_laravel/app",
+		"/home/shubham/Documents/Projects/Social_network_laravel/app/Http",
+		"/home/shubham/Documents/Projects/Social_network_laravel/app/Http/Controllers"
 	],
 	"file_history":
 	[
-		"/home/shubham/Documents/Projects/Social_network_laravel/.env",
+		"/home/shubham/Downloads/62FKSJ2UYC.txt",
+		"/home/shubham/Documents/Projects/Social_network_laravel/database/migrations/2017_06_26_140632_create_users_table.php",
+		"/home/shubham/Documents/Projects/Social_network_laravel/app/Http/Controllers/UserController.php",
 		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views/welcome.blade.php",
+		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views/layouts/master.blade.php",
+		"/home/shubham/Documents/Projects/Social_network_laravel/resources/views/includes/header.blade.php",
+		"/home/shubham/Documents/Projects/Social_network_laravel/.env",
 		"/home/shubham/Documents/Projects/Social_network_laravel/public/index.php",
 		"/home/shubham/Documents/Python_data_science/stopwords",
 		"/var/www/html/credentials.php",
@@ -155,60 +194,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/welcome.blade.php",
+					"file": "app/Http/Controllers/UserController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 128,
+						"buffer_size": 419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								116,
-								116
+								197,
+								197
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/layouts/master.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 181,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -245,6 +255,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
